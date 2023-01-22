@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item   android:icon="@drawable/ic_baseline_person_add_24"
+        android:id="@+id/tbaddperson"
+        android:title="Add Person"
+        app:showAsAction="always"/>
+
+    <item   android:icon="@drawable/ic_baseline_favorite_24"
+        android:id="@+id/tbfavorite"
+        android:title="Favorite"
+        app:showAsAction="always"/>
+
+    <item   android:icon="@drawable/ic_baseline_settings_24"
+        android:id="@+id/tbsetting"
+        android:title="Setting"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/tbFeedback"
+        android:title="FeedBack"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tbClose"
+        android:title="Close"
+        app:showAsAction="never"/>
+</menu>
